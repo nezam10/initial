@@ -1,0 +1,30 @@
+name: initial_project
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter_dotenv: ^5.0.2
+  get_storage: ^2.0.3
+  shared_preferences: ^2.2.2
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/animation/
